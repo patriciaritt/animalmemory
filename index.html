@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Tierwelt Memory</h1>
+<p>Willkommen beim Memoryspiel "Tierwelt". <br>Wähle eine Feldgröße. Je größer das Feld, desto
+    schwieriger das Spiel. <br>Klicke anschließend auf die verdeckten Karten und finde die richtigen Paare.</p><br><br>
+
+<div id="gameSizeSelector">
+    <legend>Spielfeldgröße:</legend>
+    <input type="radio" id="sizeSmall" name="size" value="4x4">
+    <label for="sizeSmall">4x4 </label>
+
+    <input type="radio" id="sizeMedium" name="size" value="4x6">
+    <label for="sizeMedium">4x6 </label>
+
+    <input type="radio" id="sizeLarge" name="size" value="6x6">
+    <label for="sizeLarge">6x6 </label>
+
+    <input id="startbutton" type="button" value="Start">
+</div>
+
+<div id="memoryField"></div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
