@@ -14,10 +14,14 @@ $(document).ready(function () {
         let gameSize = $("input[name='size']:checked").val();
         console.log(gameSize);
         let cards;
-        if (gameSize == "4x4")
+        if (gameSize == "4x4"){
             cards = 16;
-        else if (gameSize == "4x6")
+            $("body").css("width", "600px");
+        }
+        else if (gameSize == "4x6"){
             cards = 24;
+            $("body").css("width", "600px");
+        }
         else {
             cards = 36;
             $("body").css("width", "800px");
