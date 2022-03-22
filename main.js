@@ -120,7 +120,7 @@ function flipCards(e) {
                 $("#" + currCard).removeClass("show").addClass("match");
                 memoryCardPairs--;
                 if (memoryCardPairs === 0) {
-                    alert("Du hast Gewonnen! Herzlichen Glückwunsch!");
+                    alert("Du hast gewonnen! Herzlichen Glückwunsch!");
                 }
             }, 500);
         }
